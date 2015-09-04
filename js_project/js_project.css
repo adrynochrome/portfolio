@@ -1,0 +1,73 @@
+body,td,th {
+	font-family: Lucida Console, Monaco, monospace;
+	font-size: 14px;
+}
+body {
+	background-color: #000;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+	color: #0FF;
+}
+
+#container {
+	position:absolute;
+	width:701px;
+	height:982px;
+	top:181px;
+	background-image: url(homepage.gif);
+	right: 0px;
+}
+#main{
+	position:absolute;
+	width:626px;
+	height:529px;
+	left:35px;
+	top:343px;
+	margin-right: 5px;
+	padding: 5px;
+
+}
+#navbar2{
+	position:absolute;
+	background-color:#000;
+	height: 55px;
+	width: 450px;
+	left: 118px;
+	top: 905px;
+	z-index:4;
+	bottom: auto;
+	text-align: center;
+}
+.blue {
+	color: #00F;
+}
+#banner{
+	position:absolute;
+	width:699px;
+	height:174px;
+	z-index:2;
+	left:1px;
+	float: none;
+	text-align: center;
+	top: 3px;
+}
+
+#navbar1 {
+	position:absolute;
+	width:506px;
+	height:78px;
+	z-index:2;
+	left:104px;
+	top:264px;
+	z-index:2;
+}
+.containercontainer {
+	height: 1167px;
+	width: 701px;
+	position: absolute;
+	top: 11px;
+}

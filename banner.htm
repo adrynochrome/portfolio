@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>banner</title>
+</head>
+
+<body>
+<script type="text/javascript">
+var imgs1 = new Array("imgs/myspacebanner.jpg","imgs/ljbanner2.jpg");
+var lnks1 = new Array("http://myspace.com/harmonization_of_contrast","http://drugagainstwarx.livejournal.com/");
+var alt1 = new Array("myspace","livejournal");
+var currentAd1 = 0;
+var imgCt1 = 2;
+function cycle1() {
+  if (currentAd1 == imgCt1) {
+    currentAd1 = 0;
+  }
+var banner1 = document.getElementById('adBanner1');
+var link1 = document.getElementById('adLink1');
+  banner1.src=imgs1[currentAd1]
+  banner1.alt=alt1[currentAd1]
+  document.getElementById('adLink1').href=lnks1[currentAd1]
+  currentAd1++;
+}
+  window.setInterval("cycle1()",5000);
+</script>
+<a href="http://myspace.com/harmonization_of_contrast" id="adLink1" target="_blank">
+<img src="js_project/imgs/myspacebanner.jpg" id="adBanner1" border="0" width="468" height="150"></a>
+
+</body>
+</html>

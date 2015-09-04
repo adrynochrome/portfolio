@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>calculator</title>
+<SCRIPT LANGUAGE="JavaScript">
+
+function a_plus_b(form) {
+a=eval(form.a.value)
+b=eval(form.b.value)
+c=a+b
+form.ans.value = c
+}
+function a_minus_b(form) {
+a=eval(form.a.value)
+b=eval(form.b.value)
+c=a-b
+form.ans.value=c
+}
+function a_times_b(form) {
+a=eval(form.a.value)
+b=eval(form.b.value)
+c=a*b
+form.ans.value=c
+}
+function a_div_b(form) {
+a=eval(form.a.value)
+b=eval(form.b.value)
+c=a/b
+form.ans.value = c
+}
+function a_pow_b(form) {
+a=eval(form.a.value)
+b=eval(form.b.value)
+c=Math.pow(a, b)
+form.ans.value = c
+}
+
+</SCRIPT>
+
+
+
+<BODY>
+<CENTER>
+<FORM name="formx"><input type=text size=4 value=0 name="a"> 
+<input type="button" value="  +  " onClick="a_plus_b(this.form)">  
+<input type="button" value="  -  " onClick="a_minus_b(this.form)">  
+<input type="button" value="  x  " onClick="a_times_b(this.form)">  
+<input type="button" value="  /  " onClick="a_div_b(this.form)">  
+<input type="button" value="  ^  " onClick="a_pow_b(this.form)">  
+<input type="number" size=4 value=0 name="b"> = <input type "number" value=0 name="ans" size=9>
+</FORM>
+</CENTER>
+
+</head>
+
+<body>
+Check out this calculator created with javascript<br />
+
+</body>
+</html>

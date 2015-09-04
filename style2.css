@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+.container {
+	position:absolute;
+	width:751px;
+	background-color:#FFF;
+	left:50%;
+	margin-left:-375px;
+	border:solid #000 5px;
+	top:25px;
+}
+
+.leftcol {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 400px;
+	width: 150px;
+	background-color: #C9F;
+	border-right:solid 1px #000;
+}
+.rightcol {
+	margin: 0px;
+	padding: 0px;
+	height: 400px;
+	width: 600px;
+	float: right;
+	text-align: center;
+}
+
+
+.footer {
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	width: 751px;
+	clear: both;
+	background-color: #CCF;
+	text-align: right;
+	border-top:solid 1px #000;
+}
+
+.titlefont {
+	font-family: "Arial Black", Gadget, sans-serif;
+	background:#CCC;
+	width:100%;
+	border-top:solid 1px #000;
+	border-bottom:solid 1px #000;
+}
+
+body {
+	background-color: #0C9;
+	background-image: url(js_project/imgs/bg.jpg);
+}
+
+a {
+	color: #000;
+	border-bottom:dotted 1px #FF0;
+	font-size:18px;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+
+a:hover 
+{
+	text-decoration: underline;
+	color: #FF0;
+	font-weight:bolder;
+}
+a:active 
+{
+text-decoration: underline;
+color: #FF0;
+
+}
+a:visited 
+{
+text-decoration: underline;
+}
+img {border:solid 3px #000;}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+-->
+</style>

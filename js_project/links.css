@@ -1,0 +1,18 @@
+@charset "utf-8";
+.container {
+	position:absolute;
+	font-family: "Lucida Console", Monaco, monospace;
+	text-transform: capitalize;
+	margin: 5px;
+	height: 319px;
+	width: 541px;
+	left: 70px;
+	top: 90px;
+}
+.txties{
+	text-decoration: blink;
+}
+.heading{
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #00F;
+}

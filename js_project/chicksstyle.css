@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body,td,th {
+	font-family: Lucida Console, Monaco, monospace;
+	font-size: 14px;
+}
+body {
+	background-color: #000;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+	color: #0FF;
+}
+#mainframe{
+	position:relative;
+	width:626px;
+	height:529px;
+}
+.centertitle {
+	font-family: "Charlemagne Std";
+	font-size: 18px;
+	color: #00F;
+	text-decoration: blink;
+	text-align: center;
+}
+
+#maintxt{
+	position:relative;
+	width:565px;
+	height:233px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #0FF;
+	text-align: left;
+	margin: 5px;
+	padding: 0px;
+}
+#floater{
+  width:300px; 
+  height:400px; 
+  border-width:0px; 
+  background-color:transparent;
+  overflow:hidden;
+  left:-301px;
+  top:-401px;
+}
+	

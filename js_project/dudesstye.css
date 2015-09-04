@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+}
+body {
+	background-color: #000;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+	color: #0FF;
+}
+
+.center {
+	font-family: "Charlemagne Std";
+	font-size: 18px;
+	color: #00F;
+	text-decoration: blink;
+	text-align: center;
+}
+

@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+	
+@charset "utf-8";
+/* CSS Document */
+
+body,td,th {
+	font-family: Lucida Console, Monaco, monospace;
+	font-size: 14px;
+}
+body {
+	background-color: #000;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+	color: #0FF;
+}
+.marqueediv {
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #00F;
+	height: 25px;
+	position: absolute;
+	z-index: auto;
+	width: 1179px;
+	left: 63px;
+	top: 14px;
+}
+
+
+
+.container {
+	position:absolute;
+	width:700px;
+	height:736px;
+	left: 677px;
+	margin-left:-380px;
+	z-index:1;
+	top:80px;
+	background-image: url(mainpage.gif);
+	background-repeat: no-repeat;
+}
+
+.navbar2{
+	position:absolute;
+	background-color:#000;
+	height: 55px;
+	width: 700px;
+	left: 1px;
+	top: 594px;
+	z-index:4;
+	bottom: auto;
+	text-align: center;
+}
+.main{
+	position: absolute;
+	z-index: auto;
+	width:700px;
+	height:400px;
+	left: -200px;
+	top: 274px;
+	text-align: center;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+.slideshow{
+	position:absolute;
+	width:240px;
+	height:240px;
+	left: 149px;
+	top: 263px;
+}

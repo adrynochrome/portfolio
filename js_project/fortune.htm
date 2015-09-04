@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fortune Cookie</title>
+<head>
+<script language="javascript" src="quote.js"></script>
+<script language="javascript" type="text/javascript" src="homepage.js">
+</script>
+
+<link href ="fortune.css" rel="stylesheet" type="text/css" />
+<SCRIPT LANGUAGE=JAVASCRIPT TYPE="TEXT/JAVASCRIPT">
+<!--Hide script from old browsers
+
+function newWindow(newContent)
+ {
+  winContent = window.open(newContent, 'nextWin', 'right=0, top=20,width=610,height=450, toolbar=yes,scrollbars=yes, resizable=yes')         
+ }
+
+ //Stop hiding script from old browsers -->
+ </SCRIPT>
+ <script type="text/javascript" src="floatimg.js"> </script>
+<script type="text/javascript">
+
+/***********************************************
+* Floating image script- By Virtual_Max (http://www.geocities.com/siliconvalley/lakes/8620)
+* Modified by Dynamic Drive for various improvements
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+//Step 1: Define unique variable names depending on number of flying images (ie:3):
+var flyimage1, flyimage2, flyimage3
+
+function pagestart(){
+//Step 2: Using the same variable names as 1), add or delete more of the below lines (60=width, height=80 of image):
+ flyimage1=new Chip("flyimage1",47,68);
+ flyimage2=new Chip("flyimage2",47,68);
+ flyimage3=new Chip("flyimage3",47,68);
+
+
+//Step 3: Using the same variable names as 1), add or delete more of the below lines:
+movechip("flyimage1");
+movechip("flyimage2");
+movechip("flyimage3");
+
+}
+
+if (window.addEventListener)
+window.addEventListener("load", pagestart, false)
+else if (window.attachEvent)
+window.attachEvent("onload", pagestart)
+else if (document.getElementById)
+window.onload=pagestart
+
+</script>
+</head>
+
+<body>
+<DIV ID="flyimage1" STYLE="position:absolute; left: -500px; width:200px; height:200px;">
+<A HREF="fortune.htm"><IMG SRC="images/cookie.jpg" BORDER=0></a>
+</DIV>
+<DIV ID="flyimage2" STYLE="position:absolute; left: -500px; width:200px; height:200px;">
+<A HREF="orderform.htm"><IMG SRC="images/checkout.jpg" BORDER=0></a>
+</DIV>
+
+
+
+<div id="container">
+<div id="navbar1">
+  <table width="500" border="0" cellspacing="5" cellpadding="5">
+  <tr align="center">
+    <td>
+    <input name="chicksbtn" type="image" onClick="ajaxpage('chicks.htm','main'); loadobjs('chicksstyle.css'); " value="main" src="chicksbtn.gif" width="120" height="46" />
+    </td>
+    <td>
+     <input name="dudesbtn" type="image" onClick="ajaxpage('dudes.htm','main'); " value="ajaxpage" src="dudesbtn.gif" width="120" height="46" />
+    </td>
+    <td>
+     <a onclick="startTurning();" href="fortune.htm"><img src="fortunebtn.gif" width="120" height="46" alt="fortunebtn" /></a>
+    </td>
+  </tr>
+</table>
+</div>
+<div id="main">
+  <div id="random">
+
+ 
+  <div id="randomtxt">
+  </div>
+
+
+<span class="button">
+    <input name="clicker" type="button" onClick="changeText()" value="Click" />
+</span>
+</div>
+  <blockquote>
+    <p class="maintxtz">    Welcome to the fortune cookie page! Click on the button to the left to make random text appear on the shirt. Click the floating fortune cookie to reload the page.</p>
+  </blockquote>
+</div>
+<div id="navbar2">
+<a href="homepage.htm">Home</a> <span class="blue">|</span> <a href="javascript:newWindow('orderform.htm')">Order Form </a><span class="blue">|</span><a href="javascript:newWindow('links.htm')"> Links</a>
+</div>
+</div>
+
+
+</body>
+</html>
+
+
+	

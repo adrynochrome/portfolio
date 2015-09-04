@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Time Display</title>
+<script type="text/javascript" src="timeformat.js"></script>
+
+
+<style type="text/css">
+table.clock {
+  text-align: center;
+  border: thin dotted blue;
+  padding: 5px;
+  margin: auto;
+}
+
+td, input.clock2 {
+  text-align: center;
+  border: none;
+  font: bold .9em verdana, helvetica, arial, sans-serif;
+  padding-bottom: .5em;
+}
+
+.clock3 {
+  text-align: center;
+  font: .7em verdana, arial, helvetica, ms sans serif;
+}
+</style>
+</head>
+
+<body>
+<form name="clock">
+<table class="clock" width="135">
+ <tr>
+  <td class="clock2">
+    Local Time
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <input class="clock2" type="text" name="sivam" size="12"><br>
+  </td>
+ </tr>
+ <tr>
+  <td>
+    <label class="clock3" for="1"><input type="radio" id="1" name="sivamtime" checked>12 Hour Format</label><br>
+    <label class="clock3" for="2"><input type="radio" id="2" name="sivamtime">24 Hour Format</label>
+  </td>
+ </tr>
+</table>
+</form>
+</body>
+</html>

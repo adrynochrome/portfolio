@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,td,th {
+	font-family: Lucida Console, Monaco, monospace;
+	font-size: 14px;
+}
+body {
+	background-color: #000;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+	color: #0FF;
+}
+
+#container {
+	position:absolute;
+	width:701px;
+	height:982px;
+	z-index:1;
+	top:155px;
+	background-image: url(homepage.gif);
+	left: 11px;
+
+}
+#main{
+	position:absolute;
+	width:626px;
+	height:529px;
+	left:39px;
+	top:345px;
+	margin-right: 5px;
+	padding: 5px;
+
+}
+#navbar2{
+	position:absolute;
+	background-color:#000;
+	height: 55px;
+	width: 450px;
+	left: 118px;
+	top: 905px;
+	z-index:4;
+	bottom: auto;
+	text-align: center;
+}
+.blue {
+	color: #00F;
+}
+#banner{
+	position:absolute;
+	width:684px;
+	height:211px;
+	z-index:2;
+	left:674px;
+	top: 3px;
+
+}
+#random {
+	background-image: url(images/tee.jpg);
+	background-repeat: no-repeat;
+	float: left;
+	height: 301px;
+	width: 217px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	position: relative;
+	z-index: auto;
+	margin: 5px;
+	padding: 5px;
+}
+#randomtxt{
+	width:135px;
+	position:absolute;
+	z-index: auto;
+	left: 41px;
+	top: 37px;
+	color: #000;
+	height: 48px;
+}
+#navbar1 {
+	position:absolute;
+	width:506px;
+	height:78px;
+	z-index:2;
+	left:104px;
+	top:264px;
+	z-index:2;
+}
+.button{
+	position:absolute;
+	left: 82px;
+	top: 273px;
+}
+.maintxtz {
+	text-align: justify;
+	}

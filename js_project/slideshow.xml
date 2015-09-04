@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AlbumBook ver='1.6' title='Products' description='' firstAlbum='0' width='320' height='240' showThumbnails='true' thumbWidth='80' thumbHeight='60' autoStart='true' allowClick='false' clickAction='_blank' playerName='Player - Black (Flash)'>
+	<Album title='slideshow' description='' path='slideshow' hasThumb='false' thumbSrc='' hasBg='true' bgSrc='mensredspidershirt.jpg' bgScale='0' interval='6' useTransition='true' transType='Random' transTime='3' firstImage='1' dispSequence='1'>
+		<Slide src='chicks1shirt.jpg' caption='' width='240' height='240' thumbWidth='60' thumbHeight='60'/>
+		<Slide src='chickspitbull.jpg' caption='' width='240' height='240' thumbWidth='60' thumbHeight='60'/>
+		<Slide src='chickstank.jpg' caption='' width='240' height='240' thumbWidth='60' thumbHeight='60'/>
+		<Slide src='dudespitbull.jpg' caption='' width='240' height='240' thumbWidth='60' thumbHeight='60'/>
+		<Slide src='inkedmensshirt.jpg' caption='' width='240' height='240' thumbWidth='60' thumbHeight='60'/>
+		<Slide src='mensredspidershirt.jpg' caption='' width='240' height='240' thumbWidth='60' thumbHeight='60'/>
+	</Album>
+</AlbumBook>

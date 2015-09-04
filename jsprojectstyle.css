@@ -1,0 +1,27 @@
+#container {
+	padding: 0px;
+	height: 800px;
+	width: 800px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+#leftcol {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 800px;
+	width: 150px;
+	background-color: #C9F;
+}
+#rightcol {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 800px;
+	width: 650px;
+	background color:#0C9;
+}
