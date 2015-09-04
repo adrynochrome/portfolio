@@ -1,0 +1,34 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript">
+var Quotation=new Array() 
+
+Quotation[0] = "Yes";
+Quotation[1] = "NO";
+Quotation[2] = "Reply hazy, try again later";
+Quotation[3] = "WWJD?";
+Quotation[4] = "Don't let your dreams be dreams";
+
+
+var Q = Quotation.length;
+var whichQuotation=Math.round(Math.random()*(Q-1));
+function showQuotation()
+{
+  alert(Quotation[whichQuotation]);
+  }
+</script>
+
+<title>Magic 8 Ball</title>
+</head>
+
+<body>
+Pose a question in your head or ask aloud and then click the button.
+
+<button onclick="showQuotation()">Shake the Magic 8 Ball</button>
+
+reload page to ask another question
+</body>
+</html>
