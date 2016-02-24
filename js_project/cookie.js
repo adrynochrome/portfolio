@@ -1,11 +1,5 @@
 <script language="JavaScript1.2">
 
-/*
-Cross browser Marquee script- © Dynamic Drive (www.dynamicdrive.com)
-For full source code, 100's more DHTML scripts, and Terms Of Use, visit http://www.dynamicdrive.com
-Credit MUST stay intact
-*/
-
 //Specify the marquee's width (in pixels)
 var marqueewidth="650px"
 //Specify the marquee's height
